@@ -1,5 +1,9 @@
 resolver: lts-13.22
 
+docker:
+  enable: false
+  image: fastest-matrices-dev:latest
+
 packages:
 - .
 # Dependency packages to be pulled from upstream that are not in the resolver
