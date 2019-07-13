@@ -39,4 +39,4 @@ before_install:
 # around some quirks in Travis's terminal implementation.
 script:
 - stack $ARGS --docker --no-terminal --no-interleaved-output --install-ghc test
-# - stack $ARGS --docker --no-terminal --no-interleaved-output --install-ghc test --haddock
+- stack exec -- bench-runtime

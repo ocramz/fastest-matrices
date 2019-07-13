@@ -1,6 +1,6 @@
 # fastest-matrices
 
-[![Build Status](https://travis-ci.com/ocramz/fastest-matrices.png?branch=master)](https://travis-ci.com/ocramz/fastest-matrices?branch=master)
+[![Build Status](https://travis-ci.com/Magalame/fastest-matrices.png?branch=master)](https://travis-ci.com/Magalame/fastest-matrices?branch=master)
 
 This project benchmarks the following libraries:
 - [hmatrix](http://hackage.haskell.org/package/hmatrix)
