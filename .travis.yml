@@ -38,4 +38,5 @@ before_install:
 # executables, and test suites, and runs the test suites. --no-terminal works
 # around some quirks in Travis's terminal implementation.
 script:
-- stack $ARGS --docker --no-terminal --no-interleaved-output --install-ghc test --haddock
+- stack $ARGS --docker --no-terminal --no-interleaved-output --install-ghc test
+# - stack $ARGS --docker --no-terminal --no-interleaved-output --install-ghc test --haddock
