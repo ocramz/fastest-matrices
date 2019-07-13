@@ -1,5 +1,7 @@
 # fastest-matrices
 
+[![Build Status](https://travis-ci.com/ocramz/fastest-matrices.png?branch=master)](https://travis-ci.com/ocramz/fastest-matrices?branch=master)
+
 This project benchmarks the following libraries:
 - [hmatrix](http://hackage.haskell.org/package/hmatrix)
 - [dense-linear-algebra](https://hackage.haskell.org/package/dense-linear-algebra) (refered to as DLA henceforth)
