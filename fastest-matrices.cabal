@@ -27,6 +27,7 @@ source-repository head
 
 benchmark bench-runtime
   main-is: Runtime.hs
+  type: exitcode-stdio-1.0  
   other-modules:
       Paths_fastest_matrices
   hs-source-dirs:
@@ -49,6 +50,7 @@ benchmark bench-runtime
 
 benchmark bench-alloc
   main-is: Alloc.hs
+  type: exitcode-stdio-1.0  
   other-modules:
       Paths_fastest_matrices
   hs-source-dirs:
